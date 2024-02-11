@@ -1,11 +1,9 @@
-import { useState } from 'react'
-
-function App() {
+function App({ children }) {
 
   return (
-    <>
-      <h1 className='w-screen h-screen bg-neutral-800 text-green-400 flex justify-center items-center'>Hello World</h1>
-    </>
+    <div className="w-screen h-screen bg-cyan-600 flex flex-col items-center justify-start p-4">
+      {children}
+    </div>
   )
 }
 
