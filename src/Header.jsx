@@ -10,10 +10,11 @@ function Header(){
         grid-cols-1 
         grid-rows-2 
         justify-items-center 
-        border-slate-100 
-        border-2 
-        p-1 
-        rounded-lg">
+        items-center
+        py-5
+        text-center
+        rounded-lg
+        md:border-0">
             
             <h1 className="
             font-bold 
@@ -23,6 +24,7 @@ function Header(){
             </h1>
 
             <span className="
+            text-2xl
             font-medium 
             text-slate-100">
                 {subTitle}
